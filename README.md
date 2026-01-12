@@ -1,6 +1,6 @@
-# pardus-sed-awk-wizard
+# **:mage: Pardus Sed & Awk Wizard**
 
-**:mage: Pardus Sed & Awk Wizard**, Linux terminalindeki karmaşık metin işleme komutlarını herkes için erişilebilir kılan, hata kontrollü ve çift arayüzlü (GUI & TUI) bir otomasyon aracıdır.
+Bu uygulama, *Linux* terminalindeki karmaşık metin işleme komutlarını herkes için erişilebilir kılan, hata kontrollü ve çift arayüzlü *(GUI & TUI)* bir otomasyon aracıdır.
 
 > **English:** A dual-interface (GUI/TUI) Bash automation tool designed for Pardus Linux that simplifies complex `sed` and `awk` text processing operations with safety checks and real-time previews.
 
