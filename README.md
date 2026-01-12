@@ -5,26 +5,35 @@
 > **English:** A dual-interface (GUI/TUI) Bash automation tool designed for Pardus Linux that simplifies complex `sed` and `awk` text processing operations with safety checks and real-time previews.
 
 ---
+<br>
 
-## 📺 Demo Video & Tutorial
+## Demo Video & Tutorial
 
 Projenin nasıl çalıştığını ve özelliklerini aşağıdaki videodan izleyebilirsiniz:
 
 [![YouTube Demo](https://img.youtube.com/vi/VIDEO_ID_BURAYA/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_BURAYA)
 
 ---
+<br>
+
 ## 📸 Arayüzler ve Kullanım Detayları (Screenshots)
 
 Pardus Sed & Awk Wizard, kullanıcının çalışma ortamına (Masaüstü veya Sunucu) göre otomatik olarak adapte olabilen esnek bir yapıya sahiptir. Aşağıda programın sunduğu arayüzleri ve özellikleri inceleyebilirsiniz.
+<br>
+<br>
 
 ### 1. Akıllı Başlangıç Menüsü
 Program ilk çalıştırıldığında sistem analizi yapar ve gerekli bağımlılıkları (`yad`) kontrol eder. Ardından size çalışma modunu sorar.
 
 > **Özellik:** Bu menü, sisteminizde grafik arayüz (X11/Wayland) olup olmadığını algılar ve sizi en doğru moda yönlendirir.
 
+<br>
+
 ![Başlangıç Menüsü](screenshots/main.png)
 
 ---
+<br>
+<br>
 
 ### 2. Grafik Arayüz (GUI Modu) - Masaüstü Kullanıcıları İçin
 Pardus masaüstü kullanıcıları için `Yad` teknolojisi ile geliştirilmiş modern bir arayüz sunar.
@@ -32,10 +41,13 @@ Pardus masaüstü kullanıcıları için `Yad` teknolojisi ile geliştirilmiş m
 * **Dosya Seçici:** Hata yapmayı önlemek için görsel dosya seçme penceresi.
 * **İşlem Menüleri:** `sed` ve `awk` komutlarını ezberlemenize gerek kalmadan, açılır menülerden işlem seçebilirsiniz.
 * **Güvenlik:** "Yazma izni olmayan" veya "sistem dosyalarını" seçerseniz program sizi uyarır.
+<br>
 
 ![GUI Ana Menü](screenshots/guimain.png)
 
 ---
+<br>
+<br>
 
 ### 3. Terminal Arayüzü (TUI Modu) - Sunucu ve Hız Tutkunları İçin
 Grafik arayüzün olmadığı sunucularda (Headless Server) veya terminalden ayrılmak istemeyenler için **Saf Bash (Pure CLI)** arayüzü devreye girer.
@@ -43,17 +55,22 @@ Grafik arayüzün olmadığı sunucularda (Headless Server) veya terminalden ayr
 * **Hız:** Herhangi bir grafik kütüphanesine ihtiyaç duymaz, çok hızlı çalışır.
 * **Renkli Çıktılar:** Hataları kırmızı, onayları yeşil, bilgileri mavi renkle göstererek okunabilirliği artırır.
 * **Klavye Kontrolü:** Farenizi kullanmadan tüm işlemleri klavye ile yönetebilirsiniz.
-
+<br>
 ![TUI Terminal Modu](screenshots/tuimain.png)
 
 ---
+<br>
+<br>
 
 ### 4. Canlı Önizleme ve Sonuç Raporu
 İster GUI ister TUI kullanın, hiçbir işlem dosyanıza doğrudan uygulanmaz. Önce geçici bir alanda (buffer) işlem yapılır ve size **"Önizleme Penceresi"** sunulur.
 
 > **Güvenlik:** Sonuçtan memnun kalırsanız "Kaydet" butonuna basarsınız. Böylece veri kaybı riski %0'a indirilir.
+<br>
 
-![Sonuç Önizleme](screenshots/ongosterim.png)
+![Sonuç Önizleme](screenshots/ongosterım.png)
+<br>
+<br>
 
 ##  Özellikler / Features
 
@@ -70,6 +87,7 @@ Grafik arayüzün olmadığı sunucularda (Headless Server) veya terminalden ayr
 *  **Bağımlılık Kontrolü:** Eksik paketleri (`yad`, `whiptail`) açılışta tespit eder.
 
 ---
+<br>
 
 ##  Kurulum ve Kullanım (Adım Adım)
 
