@@ -1,9 +1,4 @@
 # pardus-sed-awk-wizard
-Pardus Linux için geliştirilmiş; sed ve awk işlemlerini basitleştiren, hata kontrollü ve önizlemeli, çift arayüzlü (GUI &amp; TUI) otomasyon aracı.
-
-![Bash](https://img.shields.io/badge/Language-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Pardus%20%2F%20Linux-1793D1?style=for-the-badge&logo=linux&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 **Pardus Sed & Awk Wizard**, Linux terminalindeki karmaşık metin işleme komutlarını herkes için erişilebilir kılan, hata kontrollü ve çift arayüzlü (GUI & TUI) bir otomasyon aracıdır.
 
@@ -18,21 +13,28 @@ Projenin nasıl çalıştığını ve özelliklerini aşağıdaki videodan izley
 [![YouTube Demo](https://img.youtube.com/vi/VIDEO_ID_BURAYA/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_BURAYA)
 
 ---
+## 📸 Ekran Görüntüleri (Screenshots)
 
-## 📸 Screenshots (Ekran Görüntüleri)
+Program, kullanıcı tercihine göre hem modern pencereli (GUI) hem de klasik terminal (TUI) arayüzü sunar.
 
-| Ana Menü (GUI) | SED Modülü |
-| :---: | :---: |
-| ![Main Menu](screenshots/main_menu.png) | ![SED Module](screenshots/sed_module.png) |
-| *Yad tabanlı modern arayüz* | *Hata kontrollü düzenleme* |
+### 1. Genel Başlangıç Menüsü (Arayüz Seçimi)
+*Program ilk açıldığında sizi karşılayan, hangi modda çalışmak istediğinizi soran ekran.*
 
-| AWK Raporlama | TUI Modu (Terminal) |
-| :---: | :---: |
-| ![AWK Result](screenshots/awk_result.png) | ![TUI Mode](screenshots/tui_mode.png) |
-| *Anlık veri önizleme* | *Whiptail ile sunucu uyumu* |
+![Interface Selection](screenshots/main.png)
 
 ---
 
+### 2. GUI Ana Menü (Grafik Modu)
+*Yad teknolojisi kullanılarak hazırlanmış, fare ile yönetilen kullanıcı dostu menü.*
+
+![GUI Main Menu](screenshots/guimain.png)
+
+---
+
+### 3. TUI Ana Menü (Terminal Modu)
+*Sunucu ortamları ve hızlı işlemler için tasarlanmış, klavye kontrollü ve renkli "saf terminal" menüsü.*
+
+![TUI Main Menu](screenshots/tuimain.png)
 ## 🌟 Özellikler / Features
 
 * ✅ **Çift Arayüz (Dual Interface):** İster grafik arayüz (Yad), ister terminal arayüzü (Whiptail) kullanın.
