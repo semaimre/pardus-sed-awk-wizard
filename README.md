@@ -1,13 +1,13 @@
 # pardus-sed-awk-wizard
 
-**Pardus Sed & Awk Wizard**, Linux terminalindeki karmaşık metin işleme komutlarını herkes için erişilebilir kılan, hata kontrollü ve çift arayüzlü (GUI & TUI) bir otomasyon aracıdır.
+**:mage: Pardus Sed & Awk Wizard**, Linux terminalindeki karmaşık metin işleme komutlarını herkes için erişilebilir kılan, hata kontrollü ve çift arayüzlü (GUI & TUI) bir otomasyon aracıdır.
 
 > **English:** A dual-interface (GUI/TUI) Bash automation tool designed for Pardus Linux that simplifies complex `sed` and `awk` text processing operations with safety checks and real-time previews.
 
 ---
 <br>
 
-## Demo Video & Tutorial
+## :computer: Demo Video & Tutorial
 
 Projenin nasıl çalıştığını ve özelliklerini aşağıdaki videodan izleyebilirsiniz:
 
@@ -20,7 +20,7 @@ Projenin nasıl çalıştığını ve özelliklerini aşağıdaki videodan izley
 
 Pardus Sed & Awk Wizard, kullanıcının çalışma ortamına (Masaüstü veya Sunucu) göre otomatik olarak adapte olabilen esnek bir yapıya sahiptir. Aşağıda programın sunduğu arayüzleri ve özellikleri inceleyebilirsiniz.
 <br>
-<br>
+
 
 ### 1. Akıllı Başlangıç Menüsü
 Program ilk çalıştırıldığında sistem analizi yapar ve gerekli bağımlılıkları (`yad`) kontrol eder. Ardından size çalışma modunu sorar.
@@ -33,7 +33,7 @@ Program ilk çalıştırıldığında sistem analizi yapar ve gerekli bağımlı
 
 ---
 <br>
-<br>
+
 
 ### 2. Grafik Arayüz (GUI Modu) - Masaüstü Kullanıcıları İçin
 Pardus masaüstü kullanıcıları için `Yad` teknolojisi ile geliştirilmiş modern bir arayüz sunar.
@@ -47,7 +47,7 @@ Pardus masaüstü kullanıcıları için `Yad` teknolojisi ile geliştirilmiş m
 
 ---
 <br>
-<br>
+
 
 ### 3. Terminal Arayüzü (TUI Modu) - Sunucu ve Hız Tutkunları İçin
 Grafik arayüzün olmadığı sunucularda (Headless Server) veya terminalden ayrılmak istemeyenler için **Saf Bash (Pure CLI)** arayüzü devreye girer.
@@ -60,7 +60,7 @@ Grafik arayüzün olmadığı sunucularda (Headless Server) veya terminalden ayr
 
 ---
 <br>
-<br>
+
 
 ### 4. Canlı Önizleme ve Sonuç Raporu
 İster GUI ister TUI kullanın, hiçbir işlem dosyanıza doğrudan uygulanmaz. Önce geçici bir alanda (buffer) işlem yapılır ve size **"Önizleme Penceresi"** sunulur.
@@ -76,20 +76,20 @@ Grafik arayüzün olmadığı sunucularda (Headless Server) veya terminalden ayr
 
 *  **Çift Arayüz (Dual Interface):** İster grafik arayüz (Yad), ister terminal arayüzü (Whiptail) kullanın.
 *  **Gelişmiş SED İşlemleri:**
-    * Metin Bul/Değiştir (Path/URL destekli `s~old~new~g` yapısı).
-    * Satır Silme.
-    * Satır Değiştirme (Komple satır revizyonu).
+    * :white_check_mark:Metin Bul/Değiştir (Path/URL destekli `s~old~new~g` yapısı).
+    * :white_check_mark:Satır Silme.
+    * :white_check_mark:Satır Değiştirme (Komple satır revizyonu).
 *  **Akıllı AWK Süzgeci:** Sütun çekme ve Regex tabanlı içerik filtreleme.
 *  **Güvenlik Kontrolleri:**
-    * Dosya yazma izni kontrolü (Write permission check).
-    * Görünmez karakter temizliği (Input sanitization/trimming).
-    * Kaydetmeden önce **Canlı Önizleme** (Live Preview).
+    * :white_check_mark:Dosya yazma izni kontrolü (Write permission check).
+    * :white_check_mark:Görünmez karakter temizliği (Input sanitization/trimming).
+    * :white_check_mark:Kaydetmeden önce **Canlı Önizleme** (Live Preview).
 *  **Bağımlılık Kontrolü:** Eksik paketleri (`yad`, `whiptail`) açılışta tespit eder.
 
 ---
 <br>
 
-##  Kurulum ve Kullanım (Adım Adım)
+## :gear:Kurulum ve Kullanım (Adım Adım)
 
 Bu aracı Pardus veya Debian tabanlı (Ubuntu, Linux Mint, Kali vb.) tüm sistemlerde sorunsuz çalıştırabilirsiniz.
 
