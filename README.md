@@ -121,8 +121,8 @@ cd pardus-sed-awk-wizard
 İndirilen dosya güvenlik gereği hemen çalışmaz. Önce ona "çalışabilir" izni vermeli, sonra başlatmalısınız:
 ```bash
 # İzin ver
-chmod +x wizard.sh
+chmod +x sed_awk_proje.sh
 
 # Programı çalıştır
-./wizard.sh
+./sed_awk_proje.sh
 ```
