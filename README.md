@@ -11,7 +11,7 @@ Bu uygulama, *Linux* terminalindeki karmaşık metin işleme komutlarını herke
 
 Projenin nasıl çalıştığını ve özelliklerini aşağıdaki videodan izleyebilirsiniz:
 
-[![YouTube Demo](https://img.youtube.com/vi/VIDEO_ID_BURAYA/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_BURAYA)
+[![YouTube Demo](https://youtu.be/rouL7cZksQo)
 
 ---
 <br>
